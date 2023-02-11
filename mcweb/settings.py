@@ -32,8 +32,8 @@ env = environ.Env(
     DEBUG=(bool, False)  # set casting, default value
 )
 # read from root for production config
-if os.path.exists("/root/env-web-search"):
-    environ.Env.read_env("/root/env-web-search")
+if os.path.exists("/web-search-config/env-web-search"):
+    environ.Env.read_env("/web-search-config/env-web-search")
 else:
     environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 
