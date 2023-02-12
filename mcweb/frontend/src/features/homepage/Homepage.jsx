@@ -13,9 +13,9 @@ export default function Homepage() {
           <div className="row">
             <div className="col-12 text-center">
               <h1>
-                Media Cloud is an open-source platform
+                Titanic Research tool
                 <br />
-                for media analysis.
+                for securities analysis.
               </h1>
               <Link to="/search"><Button variant="contained" endIcon={<SearchIcon titleAccess="search online news and social media"/>}>Search Now</Button></Link>
             </div>
@@ -53,7 +53,7 @@ export default function Homepage() {
             <div className="col-5">
               <h2>Track Attention Over Time</h2>
               <p>
-                Media Cloud shows you attention to an issue over time to help
+                Titanic Research shows you attention to an issue over time to help
                 you understand how much it is covered. Our data can reveal key
                 events that cause spikes in coverage and conversation. Plateaus
                 can reveal stable, &quot;normal&quot;, levels of attention to compare against.
@@ -70,7 +70,7 @@ export default function Homepage() {
             <div className="col-5 offset-1">
               <h2>Search with Global Coverage</h2>
               <p>
-                For online news, Media Cloud supports searching individual
+                For online news, Titanic Research supports searching individual
                 media sources, or across media sources grouped into collections.
                 We have collections covering top media sources in over 100
                 countries, and add more all the time. Media Cloud also lets
