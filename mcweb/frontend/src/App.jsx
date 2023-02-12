@@ -70,13 +70,6 @@ function App() {
           />
 
           <Route
-            path="release-notes"
-            element={(
-              <ReleaseNotes />
-            )}
-          />
-
-          <Route
             path="story/:platform/:storyId"
             element={(
               <RequireAuth>
