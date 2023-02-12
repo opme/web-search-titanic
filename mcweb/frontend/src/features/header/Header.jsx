@@ -36,7 +36,7 @@ function Header() {
             <div className="col-6">
 
               <Link to="/">
-                <img src={assetUrl('img/mediacloud-logo-white-2x.png')} alt="Media Cloud logo" width={40} height={40} />
+                <img src={assetUrl('img/mediacloud-logo-white-2x.png')} alt="Titanic Research logo" width={40} height={40} />
               </Link>
 
               <ul>
@@ -47,44 +47,6 @@ function Header() {
                     </NavLink>
                   </li>
                 ))}
-                <li>
-                  <Button onClick={handleClick}>About</Button>
-                  <Menu
-                    id="about-menu"
-                    anchorEl={anchorEl}
-                    open={open}
-                    onClose={handleClose}
-                    anchorOrigin={{
-                      vertical: 'top',
-                      horizontal: 'left',
-                    }}
-                    transformOrigin={{
-                      vertical: 'top',
-                      horizontal: 'left',
-                    }}
-                    sx={{ marginTop: 5 }}
-                  >
-                    <div className="container" style={{ marginLeft: 5 }}>
-                      <div className="row">
-                        <h5 className="col-8">Recent Changes</h5>
-                        <p className="col-4" style={{ color: '#e5e5e5' }}>
-                          {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
-                          {dayjs(date).fromNow()}
-                        </p>
-                      </div>
-                      <Divider />
-                      {/* <br /> */}
-                      <div className="row" style={{ paddingTop: 10 }}>
-                        <Chip className="col-2" label="new" color="success" />
-                        <p className="col-10">{notes[0]}</p>
-                      </div>
-                      <Divider />
-                      <Link to="release-notes" onClick={handleClose}>
-                        Read More Release Notes
-                      </Link>
-                    </div>
-                  </Menu>
-                </li>
               </ul>
 
             </div>
