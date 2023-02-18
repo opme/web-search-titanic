@@ -13,9 +13,9 @@ export default function Homepage() {
           <div className="row">
             <div className="col-12 text-center">
               <h1>
-                Titanic Research tool
+                Titanic Research
                 <br />
-                for securities analysis.
+                securities analysis.
               </h1>
               <Link to="/search"><Button variant="contained" endIcon={<SearchIcon titleAccess="search online news and social media"/>}>Search Now</Button></Link>
             </div>
@@ -31,10 +31,6 @@ export default function Homepage() {
               <p>
                 Our search tools let you author queries across media platforms,
                 without having to worry about platform-specific search syntax.
-                Based on what their APIs support, we can show attention over time,
-                total attention, and sample matching content. This lets you quickly
-                narrow in on a query to find exactly the type of content you are
-                looking for.
               </p>
             </div>
             <div className="col-5">
@@ -53,11 +49,8 @@ export default function Homepage() {
             <div className="col-5">
               <h2>Track Attention Over Time</h2>
               <p>
-                Titanic Research shows you attention to an issue over time to help
-                you understand how much it is covered. Our data can reveal key
-                events that cause spikes in coverage and conversation. Plateaus
-                can reveal stable, &quot;normal&quot;, levels of attention to compare against.
-                You can download all our charts and the underlying aggregated data.
+                Titanic Research shows you attention to an issue over time.  Our data can reveal key
+                events that cause spikes in coverage and conversation.
               </p>
             </div>
           </div>
@@ -70,12 +63,8 @@ export default function Homepage() {
             <div className="col-5 offset-1">
               <h2>Search with Global Coverage</h2>
               <p>
-                For online news, Titanic Research supports searching individual
-                media sources, or across media sources grouped into collections.
-                We have collections covering top media sources in over 100
-                countries, and add more all the time. Media Cloud also lets
-                you search by language, including various levels of support for
-                English, Spanish, Arabic, Japanese, and other languages.
+                For online news related to a security, Titanic Research supports searching 
+                individual media sources, or across media sources grouped into collections.
               </p>
             </div>
             <div className="col-5">
