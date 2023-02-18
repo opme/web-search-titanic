@@ -40,6 +40,23 @@ export default function Homepage() {
         </div>
       </div>
 
+      <div className="feature-area filled">
+        <div className="container">
+          <div className="row">
+            <div className="col-5 offset-1">
+              <h2>Search with Global Coverage</h2>
+              <p>
+                For online news related to a security, Titanic Research supports searching
+                individual media sources, or across media sources grouped into collections.
+              </p>
+            </div>
+            <div className="col-5">
+              <img src={assetUrl('img/mc-country-coverage.png')} alt="heatmap visualization showing countries stories ahve come from" width="100%" />
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="feature-area">
         <div className="container">
           <div className="row">
@@ -52,23 +69,6 @@ export default function Homepage() {
                 Titanic Research shows you attention to an issue over time.  Our data can reveal key
                 events that cause spikes in coverage and conversation.
               </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="feature-area filled">
-        <div className="container">
-          <div className="row">
-            <div className="col-5 offset-1">
-              <h2>Search with Global Coverage</h2>
-              <p>
-                For online news related to a security, Titanic Research supports searching 
-                individual media sources, or across media sources grouped into collections.
-              </p>
-            </div>
-            <div className="col-5">
-              <img src={assetUrl('img/mc-country-coverage.png')} alt="heatmap visualization showing countries stories ahve come from" width="100%" />
             </div>
           </div>
         </div>
