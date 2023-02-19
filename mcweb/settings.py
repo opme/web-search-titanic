@@ -42,7 +42,7 @@ SECRET_KEY = env("SECRET_KEY")
 DEBUG = environ.Env(DEBUG=(bool, False))
 
 # app.process for access from rss-fetcher
-ALLOWED_HOSTS = ['app.titanicresearch.eu', 'localhost']
+ALLOWED_HOSTS = ['app.titanicresearch.eu', '127.0.0.1']
 
 # Application definition
 
@@ -115,24 +115,13 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Internationalization
 # https://docs.djangoproject.com/en/dev/topics/i18n/
-LANGUAGES = (
-    ('en-us', 'English (US)'),
-    ('bg', 'Български'),
-    ('cs', 'Česky'),
-    ('de', 'Deutsche'),
-    ('es', 'Español'),
-    ('fi', 'Suomi'),
-    ('fr', 'Français'),
-    ('pl', 'Polski'),
-    ('uk', 'Українська'),
-)
 
 LANGUAGE_CODE = "en-us"
 
 TIME_ZONE = "UTC"
 
 USE_I18N = True
-USE_L10N = True
+
 USE_TZ = True
 
 

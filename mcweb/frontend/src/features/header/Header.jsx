@@ -10,7 +10,6 @@ import UserMenu from './UserMenu';
 import { assetUrl } from '../ui/uiUtil';
 import Permissioned, { ROLE_STAFF } from '../auth/Permissioned';
 import SystemAlert from './SystemAlert';
-import releases from '../../../static/about/release_history.json';
 
 const relativeTime = require('dayjs/plugin/relativeTime');
 
@@ -26,7 +25,6 @@ function Header() {
   const handleClose = () => {
     setAnchorEl(null);
   };
-  const { notes, date } = releases[0];
 
   return (
     <>
